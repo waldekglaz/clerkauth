@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { useUser } from "@clerk/nextjs";
-import { redirect } from "next/navigation";
 
 const ClientPage = () => {
   const { isLoaded, isSignedIn, user } = useUser();
